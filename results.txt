@@ -1,0 +1,23 @@
+python eval_ragas.py
+
+
+asking question: what does hallucination guard EVEN check huh?
+what does hallucination guard EVEN check huh? accepted None
+[1.0]
+asking question: you say you check before returning an answer - how?
+you say you check before returning an answer - how? accepted None
+[1.0, 1.0]
+asking question: whats your stored vector store?
+whats your stored vector store? rejected below faithfulness threshold (0.6): The answer states 'I don't know,' but the context provides no information about the assistant's knowledge or uncertainty, so the claim is not supported by the context.
+asking question: whatcha do if faithfulness falls below threshold?
+whatcha do if faithfulness falls below threshold? accepted None
+[1.0, 1.0, 0.5]
+{
+  "n_questions": 4,
+  "n_scored_raw": 3,
+  "n_passed_guard": 3,
+  "n_skipped_refusals_or_no_context": 1,
+  "raw_faithfulness_all_answers": 0.8333333333333334,
+  "guarded_faithfulness_shown_to_user": 0.8333333333333334,
+  "rejection_score": 0.25
+}
