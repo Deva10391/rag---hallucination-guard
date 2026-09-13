@@ -50,7 +50,6 @@ Query
 
 | Utility | Role |
 |---|---|
-| LangChain | Retrieval chain orchestration |
 | FAISS | Vector index and similarity search |
 | sentence-transformers | Local, free embedding model |
 | Groq API | Both the answer-generator and the independent judge LLM |
